@@ -80,22 +80,6 @@
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Dashboard | Health Tracking | AI Chatbot | Insights |
-|:---------:|:---------------:|:----------:|:--------:|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Tracking](docs/screenshots/tracking.png) | ![Chatbot](docs/screenshots/chatbot.png) | ![Insights](docs/screenshots/insights.png) |
-| **Period Tracker** | **Nutrition** | **Mood Tracker** | **Settings** |
-| ![Period](docs/screenshots/period.png) | ![Nutrition](docs/screenshots/nutrition.png) | ![Mood](docs/screenshots/mood.png) | ![Settings](docs/screenshots/settings.png) |
-
-*Add screenshots of your app in the `docs/screenshots/` folder*
-
-</div>
-
----
-
 ## ⚠️ Disclaimer
 
 **NovaHealth is a wellness tracking application and is NOT intended for medical diagnosis, treatment, or prevention of disease.**
