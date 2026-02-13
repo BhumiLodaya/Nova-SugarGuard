@@ -1,185 +1,190 @@
 # 🍬 NovaHealth – Beat the Sugar Spike  
 ### Real-Time, Context-Aware Nudges for Healthier Choices
 
-NovaHealth is an AI-powered, cross-platform health application built for the **“Beat the Sugar Spike” Hackathon**.
+NovaHealth is an AI-powered, cross-platform health intelligence platform designed to reduce sugar-related health risks through real-time behavioral nudges.
 
-It helps young users reduce sugar-related health risks through:
+Built for the **“Beat the Sugar Spike” Hackathon**, NovaHealth combines:
 
 - ⚡ 10-second sugar logging  
 - 🧠 Context-aware AI insights  
-- 🎯 Immediate corrective actions  
+- 🎯 Immediate corrective micro-actions  
 - 🎮 Gamified daily habit loop  
-- 🔒 Signup-free anonymous onboarding  
+- 🔒 Privacy-first anonymous onboarding  
 
-Built with **Flutter + FastAPI + TabNet Neural Networks**, NovaHealth transforms sugar tracking into a fast, fun, and addictive daily ritual.
-
----
-
-# 🎯 Problem
-
-Young users (ages 16–32) frequently consume sugary drinks and snacks without tracking or understanding their short-term impact.
-
-Most health apps:
-- Focus only on long-term goals
-- Require too much data upfront
-- Make logging too complex
-
-NovaHealth solves this by creating a **real-time feedback loop**:
-
-**Log → Understand → Act → Get Reward → Repeat**
+Powered by **Flutter + FastAPI + TabNet Neural Networks**.
 
 ---
 
-# 🚀 Core Hackathon Features
+# 🌍 Vision
 
-## ⚡ Fast, Frictionless Sugar Logging (<10 Seconds)
+To make preventive health simple, addictive, and accessible — starting with everyday sugar habits.
 
-Users log sugar instantly using:
+---
+
+# 🎯 Mission
+
+Transform passive sugar consumption into active awareness using:
+
+- Instant feedback  
+- Personalized nudges  
+- Behavioral psychology  
+- Machine learning  
+
+---
+
+# 👥 Target Audience
+
+- Students (16–25)
+- Young professionals (22–32)
+- Fitness beginners
+- Users who dislike calorie-heavy apps
+- People who want micro-improvements, not extreme dieting
+
+---
+
+# 🚨 The Problem
+
+Young users frequently consume sugary drinks and snacks without understanding:
+
+- Short-term energy crashes
+- Focus reduction
+- Sleep disruption
+- Long-term metabolic risk
+
+Existing health apps:
+- Overwhelm users with calorie data
+- Focus only on weight loss
+- Require excessive manual input
+- Lack real-time behavioral feedback
+
+Result:
+No awareness → No action → No habit change.
+
+---
+
+# 💡 Our Behavioral Feedback Loop
+
+NovaHealth builds a micro-habit loop:
+
+**Log → Understand → Act → Reward → Repeat**
+
+Instead of fear-based health messaging,
+we provide:
+
+- Immediate insight
+- One small corrective action
+- Instant reward
+- Streak protection
+
+---
+
+# 🚀 Hackathon Requirement Coverage
+
+## ✅ 1. Fast Sugar Logging (<10 seconds)
+
+Quick presets:
 
 - ☕ Chai  
 - 🥤 Cold Drink  
 - 🍰 Sweets  
-- 🍫 Packaged Snack  
+- 🍫 Snack  
 
 Optional:
-- 🎙 Voice-based logging  
-- 📸 Photo-based logging  
+- 🎙 Voice logging
+- 📸 Photo logging (extendable)
 
-No calorie forms. No friction. Just tap and log.
-
----
-
-## 👤 Signup-Free Gamified Onboarding
-
-- Device-based anonymous ID
-- No email required to start
-- One question per screen:
-  - Age
-  - Height
-  - Weight
-  - Gender
-- BMI calculated silently (never explicitly shown)
-- Progress indicator (“3 of 5 completed”)
-
-Feels like a game, not a form.
+No friction. No calorie search.
 
 ---
 
-## 📡 Passive Health Data Sync
+## ✅ 2. Anonymous Gamified Onboarding
 
-With permission, NovaHealth uses:
+- Device-based ID
+- No email required
+- Single-question screens
+- Silent BMI calculation
+- Progress tracker
+
+Feels like leveling up in a game.
+
+---
+
+## ✅ 3. Passive Data Integration
+
+With permission:
 
 - Step count
-- Sleep duration
-- Heart rate (if available)
+- Sleep hours
+- Heart rate
 
-Important:
-- Raw biometric numbers are never shown
-- Data is used only for smarter contextual insights
+Used only for insight personalization.
+Raw numbers are never exposed.
 
 ---
 
-## 🧠 Context-Aware Insight Engine (ML-Based)
+## ✅ 4. Context-Aware Insight Engine
 
-After every sugar log, NovaHealth generates:
-
-- Simple, non-medical insight
-- Cause → Effect format
-- Personalized explanation based on:
-  - Age
-  - BMI category
-  - Steps today
-  - Sleep hours
-  - Time of day
+After every sugar log:
 
 Example:
 
-> “On low-sleep days like today, sugar may reduce your focus later.”
+> “On low-sleep days like today, sugar may reduce focus later.”
 
-Powered by:
-- FastAPI backend
-- TabNet neural networks
-- Rule-based personalization engine
-
----
-
-## 🎯 Personalized Corrective Action
-
-Each sugar event triggers ONE immediate action:
-
-- 🚶 10-minute walk  
-- 💧 Drink water  
-- 🥜 Protein snack swap  
-- 🧘 Light stretch  
-
-Rules:
-- Only one primary action
-- Must be doable immediately
-- Context-adaptive
-
-Complete within 30 minutes → Bonus XP awarded 🎉
+Generated using:
+- Age
+- BMI category
+- Sleep data
+- Steps today
+- Time of day
 
 ---
 
-## 🎮 Gamified Scoring System
+## ✅ 5. Personalized Corrective Action
 
-Built using behavioral psychology principles:
+Each sugar event triggers ONE action:
 
-- Daily streaks (Day 1, 3, 7, 30)
-- Variable XP rewards (3–10 points)
-- Bonus for logging before 6 PM
-- Bonus for completing action within 30 minutes
-- Milestone celebrations
-- Visual progress bar
-- Success animations + sound feedback
+- 🚶 Walk 10 minutes
+- 💧 Drink water
+- 🥜 Swap to protein snack
+- 🧘 Light stretch
 
----
-
-## 🔁 Daily Ritual Loop
-
-Every day users see:
-
-🔥 **“Log today to protect your streak”**
-
-Inspired by habit-forming platforms like Duolingo.
-
-Goal: Make sugar logging a daily micro-habit.
+Completed within 30 minutes → Bonus XP 🎉
 
 ---
 
-## 🔓 Optional Value-First Signup
+## ✅ 6. Gamification Engine
 
-Upgrade only after receiving value.
+Includes:
 
-Unlocks:
-- Cross-device sync
-- Deeper insights
-- Advanced personalization
-- Extra rewards
+- Daily streaks
+- XP rewards (3–10 variable)
+- Milestone unlocks
+- Progress bar
+- Achievement badges
+- Success animations
+- Sound-based micro-rewards
 
-Never forced. Always optional.
+Inspired by Duolingo habit design.
 
 ---
 
-# 🧠 Behavioral Psychology Framework
-
-NovaHealth applies:
+# 🧠 Behavioral Psychology Applied
 
 | Principle | Implementation |
 |------------|----------------|
 | Loss Aversion | Streak protection |
-| Instant Gratification | Immediate animation + sound |
-| Variable Rewards | Random XP bonuses |
-| Commitment | Signup only after value |
-| Habit Formation | Daily ritual loop |
+| Instant Gratification | Immediate animation |
+| Variable Rewards | Random XP bonus |
+| Commitment | Signup after value |
+| Habit Loop | Daily reminder |
 
-Target user feeling:
+Target emotion:
 
-> “This is fast, fun, and something I want to do every day.”
+> “This is easy. I want to open it again tomorrow.”
 
 ---
 
-# 🤖 AI & Machine Learning
+# 🤖 Machine Learning System
 
 ## TabNet Neural Networks (PyTorch)
 
@@ -189,23 +194,21 @@ Target user feeling:
 | Exercise Calories | R² | 0.9980 |
 | Menstrual Health | Accuracy | 91.06% |
 
-Optimized for 512MB RAM deployment.
+### ML Features
+
+- Lazy model loading
+- Memory optimized for 512MB servers
+- ~50–100ms inference time
+- REST API based deployment
 
 ---
 
 ## 🍬 Sugar Insight API
 
-Endpoint:
 POST `/predict/sugar-insight`
-
-Example Response:
 
 ```json
 {
-  "shortTermImpact": "~40g liquid sugar may spike glucose within 15 minutes.",
-  "correctiveAction": "A quick 5-minute stair climb can blunt the spike."
+  "shortTermImpact": "~40g sugar may spike glucose within 15 minutes.",
+  "correctiveAction": "5-minute stair climb can blunt the spike."
 }
-flutter run -d chrome
-GEMINI_API_KEY=your_key
-SUPABASE_URL=your_url
-SUPABASE_ANON_KEY=your_key
