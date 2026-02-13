@@ -205,3 +205,7 @@ Example Response:
   "shortTermImpact": "~40g liquid sugar may spike glucose within 15 minutes.",
   "correctiveAction": "A quick 5-minute stair climb can blunt the spike."
 }
+flutter run -d chrome
+GEMINI_API_KEY=your_key
+SUPABASE_URL=your_url
+SUPABASE_ANON_KEY=your_key
