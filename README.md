@@ -1756,35 +1756,21 @@ Thanks to all contributors who have helped make NovaHealth better! 🎉
 
 ### Get Help
 
-- 📖 **Documentation**: [Read the Docs](https://github.com/yourusername/nova-health/wiki)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/nova-health/discussions)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/nova-health/issues)
 - 📧 **Email**: support@novahealth.app (not active yet)
 
 ### Community
 
 - 🌐 **Website**: [www.novahealth.app](https://novahealth.app) (coming soon)
-- 🐦 **Twitter**: [@NovaHealthApp](https://twitter.com/NovaHealthApp) (coming soon)
-- 📱 **Discord**: [Join our Discord](https://discord.gg/novahealth) (coming soon)
 
 ### Maintainers
 
 This project is actively maintained by:
 
-- **Lead Developer**: [@yourusername](https://github.com/yourusername)
-- **ML Engineer**: [@yourusername](https://github.com/yourusername)
-- **UI/UX Designer**: [@yourusername](https://github.com/yourusername)
+- **Lead Developer**: Bhumi Lodaya
+- **Co-Developer**: Bishal Ghosh
+- **ML & Backend Engineer**: Bhumi Lodaya and Bishal Ghosh
+- **UI/UX & Frontend Developer**: Bhumi Lodaya and Bishal Ghosh
 
----
-
-## 📊 Project Stats
-
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/nova-health)
-![GitHub code size](https://img.shields.io/github/languages/code-size/yourusername/nova-health)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/yourusername/nova-health)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/nova-health)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/nova-health)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/nova-health)
 
 ---
 
