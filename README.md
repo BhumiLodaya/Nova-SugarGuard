@@ -3,33 +3,184 @@
 # 🍬 NovaHealth – Beat the Sugar Spike  
 ### AI-Powered Cross-Platform Health & Sugar Intelligence Platform
 
-NovaHealth is a privacy-first, AI-powered health intelligence platform designed to reduce sugar-related health risks through real-time behavioral nudges.
+[![Flutter](https://img.shields.io/badge/Flutter-3.7+-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.5+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Built for the **Beat the Sugar Spike Hackathon**, NovaHealth combines machine learning, behavioral psychology, and cross-platform engineering to create a fast, engaging, and scalable preventive health system.
+NovaHealth is a privacy-first, AI-powered health intelligence platform designed to reduce sugar-related health risks through real-time behavioral nudges and predictive modeling.
+
+[**Live Demo (Web)**](https://BhumiLodaya.github.io/Nova-SugarGuard/) | [**Report Bug**](https://github.com/BhumiLodaya/Nova-SugarGuard/issues) | [**Request Feature**](https://github.com/BhumiLodaya/Nova-SugarGuard/issues)
+
+</div>
 
 ---
 
 ## 📑 Table of Contents
 
-<table>
-<tr>
-<td valign="top" width="33%">
+| 🎯 Getting Started | 🔧 Development | 📚 Resources |
+| :--- | :--- | :--- |
+| • [Highlights](#-highlights) | • [Project Structure](#-project-structure) | • [FAQ](#-frequently-asked-questions-faq) |
+| • [Screenshots](#-screenshots) | • [Architecture](#%EF%B8%8F-architecture) | • [Performance](#-performance-benchmarks) |
+| • [Disclaimer](#%EF%B8%8F-disclaimer) | • [API Documentation](#-api-documentation) | • [Tech Specs](#%EF%B8%8F-tech-specifications) |
+| • [Features](#-features) | • [Installation](#-getting-started) | • [Roadmap](#%EF%B8%8F-roadmap) |
 
-### 🎯 Getting Started
-- [Highlights](#-highlights)
-- [Screenshots](#-screenshots)
-- [Disclaimer](#%EF%B8%8F-disclaimer)
-- [Features](#-features)
-- [Tech Stack](#%EF%B8%8F-tech-stack)
-- [Platforms](#-platforms)
-- [Installation](#-getting-started)
-- [Quick Start](#quick-start-5-minutes)
+---
 
-</td>
-<td valign="top" width="33%">
+## 🌟 Highlights
 
-### 🔧 Development
-- [Project Structure](#-project-structure)
+- 🤖 **95.93% Accuracy** – TabNet ML models for obesity risk prediction.
+- 💬 **AI Chatbot** – Gemini-powered health assistant with 40+ language support.
+- 🔒 **Privacy First** – Offline-first architecture with AES-256 local encryption.
+- 🎯 **Smart Insights** – Pattern detection across nutrition, mood, sleep & activity.
+- 🗣️ **Voice Logging** – Natural Language Processing for hands-free health entry.
+- 📊 **Visual Analytics** – Glassmorphic charts for tracking longitudinal progress.
+
+---
+
+## ⚠️ Disclaimer
+
+**NovaHealth is a wellness tracking application and is NOT intended for medical diagnosis or treatment.**
+
+- 🏥 Not a replacement for professional medical advice.
+- 🚨 In case of emergency, contact your local healthcare provider.
+- 📊 ML predictions are statistical estimates based on population data.
+
+---
+
+## 📋 Features
+
+### 🧠 ML-Powered Intelligence
+- **Obesity Risk Prediction**: Deep learning via TabNet with 95.93% accuracy.
+- **Exercise Calorie Estimation**: Regression model (R²=0.9980) for high-precision burn tracking.
+- **Sugar Impact Analysis**: Predicts glucose spikes based on intake type (e.g., Chai vs. Soda) and provides corrective physical nudges.
+- **Menstrual Health**: Cycle irregularity detection with 91.06% accuracy.
+
+### 🏃 Comprehensive Tracking
+- **Workout Logger**: Tracks intensity, MET values, and duration.
+- **Hydration**: Smart reminders based on physical activity levels.
+- **Wellness**: Mood and symptom logging to identify correlations between diet and mental health.
+
+### 🤖 AI Engagement
+- **Gemini Integration**: Context-aware responses that analyze your local health data to provide personalized tips.
+- **Multi-language**: Fully accessible in English, Hindi, Spanish, Chinese, and more.
+
+---
+
+## 🏗️ Tech Stack
+
+
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | Flutter, Dart, Riverpod (State Management) |
+| **Backend** | FastAPI (Python), Uvicorn |
+| **AI/ML** | PyTorch, TabNet, Google Gemini API |
+| **Database** | SQLite (Local), Hive (Cache), Supabase (Cloud Sync) |
+| **Security** | Firebase Auth, AES-256 Encryption |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Flutter SDK**: 3.7+
+- **Python**: 3.9+ (for local ML backend)
+- **API Keys**: Google Gemini API Key
+
+### Quick Installation
+
+1. **Clone & Install Flutter**
+   ```bash
+   git clone [https://github.com/BhumiLodaya/Nova-SugarGuard.git](https://github.com/BhumiLodaya/Nova-SugarGuard.git)
+   cd Nova-SugarGuard
+   flutter pub get
+Configure API Keys
+Create lib/config/api_keys.dart:
+
+Dart
+class ApiKeys {
+  static const String geminiApiKey = 'YOUR_GEMINI_KEY';
+}
+Run Mobile/Web
+
+Bash
+flutter run -d chrome  # For Web
+flutter run -d android # For Android
+Local ML Backend (Optional)
+Bash
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn fastapi_server:app --reload
+🏛️ Architecture
+NovaHealth follows a Layered Architecture to ensure scalability:
+
+Presentation: UI Widgets and Riverpod Providers.
+
+Domain/Business: Services (Auth, ML Client, Insights Engine).
+
+Data: Local (SQLite/Hive) and Remote (Firebase/Supabase).
+
+📡 API Documentation
+POST /predict/sugar-insight
+Request:
+
+JSON
+{
+  "sugarType": "cold_drink",
+  "bmi": 24.5,
+  "steps": 5000
+}
+Response:
+
+JSON
+{
+  "shortTermImpact": "40g of liquid sugar will spike glucose in 15m.",
+  "correctiveAction": "A 5-minute brisk walk will blunt this spike."
+}
+🚢 Deployment
+GitHub Pages (Automatic)
+The project is configured with GitHub Actions. Any push to the main branch automatically deploys the latest web version.
+
+URL: https://BhumiLodaya.github.io/Nova-SugarGuard/
+
+Manual Web Build
+Bash
+flutter build web --release --base-href="/Nova-SugarGuard/"
+🗺️ Roadmap
+[x] v1.0: Core ML models, Gemini Chat, and Cross-platform UI.
+
+[ ] v1.1: Apple Health & Google Fit Synchronization.
+
+[ ] v1.2: Computer Vision for meal photo recognition.
+
+[ ] v2.0: Federated Learning for improved privacy-preserving ML.
+
+🤝 Contributing
+Fork the Project.
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature).
+
+Commit your Changes (git commit -m 'Add AmazingFeature').
+
+Push to the Branch (git push origin feature/AmazingFeature).
+
+Open a Pull Request.
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+<div align="center">
+
+Made with ❤️ for the Beat the Sugar Spike Hackathon
+Bhumi Lodaya | LinkedIn | GitHub
+
+</div>
+
+
+Would you like me to generate a specific **"Architecture Diagram"** image description or help you draft the `LICENSE` file for this project?ucture)
 - [Architecture](#%EF%B8%8F-architecture)
 - [API Documentation](#-api-documentation)
 - [Configuration](#-configuration)
