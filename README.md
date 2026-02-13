@@ -1639,14 +1639,6 @@ This project is actively maintained by:
 
 ---
 
-## ⭐ Star History
-
-If you find this project useful, please consider giving it a star on GitHub! It helps others discover the project.
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/nova-health&type=Date)](https://star-history.com/#yourusername/nova-health&Date)
-
----
-
 ## 📊 Project Stats
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/nova-health)
