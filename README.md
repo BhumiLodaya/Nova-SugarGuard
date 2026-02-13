@@ -205,3 +205,7 @@ Example Response:
   "shortTermImpact": "~40g liquid sugar may spike glucose within 15 minutes.",
   "correctiveAction": "A quick 5-minute stair climb can blunt the spike."
 }
+git clone https://github.com/your-repo-link.git
+cd nova-health
+flutter pub get
+flutter run
