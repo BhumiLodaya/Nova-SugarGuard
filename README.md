@@ -1756,7 +1756,7 @@ Thanks to all contributors who have helped make NovaHealth better! 🎉
 
 ### Get Help
 
-- 📧 **Email**: support@novahealth.app (not active yet)
+- 📧 **Email**: bishal00ghosh@gmail.com (not active yet)
 
 ### Community
 
