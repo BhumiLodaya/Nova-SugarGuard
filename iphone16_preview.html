@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>iPhone 16 Preview — NovaHealth</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    background: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    padding-top: 20px;
+  }
+  .phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .phone-label {
+    color: #94a3b8;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .phone-frame {
+    width: 282px;
+    height: 594px;
+    background: #000;
+    border-radius: 34px;
+    padding: 13px 10px;
+    box-shadow:
+      0 0 0 2px #333,
+      0 14px 40px rgba(0,0,0,0.5),
+      inset 0 0 3px rgba(255,255,255,0.05);
+    position: relative;
+  }
+  /* Dynamic Island */
+  .dynamic-island {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 84px;
+    height: 24px;
+    background: #000;
+    border-radius: 14px;
+    z-index: 10;
+  }
+  /* Side buttons */
+  .phone-frame::before {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: 107px;
+    width: 3px;
+    height: 40px;
+    background: #333;
+    border-radius: 0 3px 3px 0;
+  }
+  .phone-frame::after {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: 93px;
+    width: 3px;
+    height: 24px;
+    background: #333;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 33px 0 #333, 0 60px 0 #333;
+  }
+  .screen {
+    width: 262px;
+    height: 568px;
+    border-radius: 26px;
+    overflow: hidden;
+    background: #0F172A;
+    position: relative;
+  }
+  .screen iframe {
+    width: 393px;
+    height: 852px;
+    border: none;
+    transform: scale(0.6667);
+    transform-origin: 0 0;
+  }
+  /* Home indicator */
+  .home-indicator {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 93px;
+    height: 4px;
+    background: #555;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+  <div class="phone-container">
+    <div class="phone-label">iPhone 16 — 393 × 852</div>
+    <div class="phone-frame">
+      <div class="dynamic-island"></div>
+      <div class="screen">
+        <iframe src="http://localhost:8000" title="NovaHealth App" allow="cross-origin-isolated"></iframe>
+      </div>
+      <div class="home-indicator"></div>
+    </div>
+  </div>
+</body>
+</html>
