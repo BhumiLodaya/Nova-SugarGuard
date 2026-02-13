@@ -1,24 +1,11 @@
 <div align="center">
 
-# 🏥 NovaHealth
+# 🍬 NovaHealth – Beat the Sugar Spike  
+### AI-Powered Cross-Platform Health & Sugar Intelligence Platform
 
-### AI-Powered Health & Wellness Platform
+NovaHealth is a privacy-first, AI-powered health intelligence platform designed to reduce sugar-related health risks through real-time behavioral nudges.
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.7+-02569B?logo=flutter)](https://flutter.dev)
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-009688?logo=fastapi)](https://fastapi.tiangolo.com)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-blue)](#-platforms)
-
-**A comprehensive health and wellness tracking application with ML-powered predictions, AI chatbot, and cross-platform support.**
-
----
-
-### 🌐 Live Demo
-
-**[▶️ Try the Web App Live](https://BhumiLodaya.github.io/Nova-SugarGuard/)** | **[📖 Deployment Guide](DEPLOY_QUICKSTART.md)**
-
-</div>
+Built for the **Beat the Sugar Spike Hackathon**, NovaHealth combines machine learning, behavioral psychology, and cross-platform engineering to create a fast, engaging, and scalable preventive health system.
 
 ---
 
