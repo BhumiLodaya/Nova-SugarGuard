@@ -1,16 +1,51 @@
 <div align="center">
 
-# 🍬 NovaHealth – Beat the Sugar Spike  
+# � NovaHealth – Beat the Sugar Spike  
 ### AI-Powered Cross-Platform Health & Sugar Intelligence Platform
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.7+-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.5+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-blue)](#-platforms)
 
-NovaHealth is a privacy-first, AI-powered health intelligence platform designed to reduce sugar-related health risks through real-time behavioral nudges and predictive modeling.
+[![GitHub Stars](https://img.shields.io/github/stars/BhumiLodaya/Nova-SugarGuard?style=social)](https://github.com/BhumiLodaya/Nova-SugarGuard)
+[![GitHub Forks](https://img.shields.io/github/forks/BhumiLodaya/Nova-SugarGuard?style=social)](https://github.com/BhumiLodaya/Nova-SugarGuard/fork)
+[![GitHub Watchers](https://img.shields.io/github/watchers/BhumiLodaya/Nova-SugarGuard?style=social)](https://github.com/BhumiLodaya/Nova-SugarGuard)
 
-[**Live Demo (Web)**](https://BhumiLodaya.github.io/Nova-SugarGuard/) | [**Report Bug**](https://github.com/BhumiLodaya/Nova-SugarGuard/issues) | [**Request Feature**](https://github.com/BhumiLodaya/Nova-SugarGuard/issues)
+**NovaHealth is a privacy-first, AI-powered health intelligence platform designed to reduce sugar-related health risks through real-time behavioral nudges.**
+
+Built for the **Beat the Sugar Spike Hackathon**, NovaHealth combines machine learning, behavioral psychology, and cross-platform engineering to create a fast, engaging, and scalable preventive health system.
+
+---
+
+### 🌐 Live Demo & Resources
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://BhumiLodaya.github.io/Nova-SugarGuard/">
+<img src="https://img.shields.io/badge/🌐_Web_App-Try_Now-4CAF50?style=for-the-badge" alt="Try Web App"/>
+</a>
+<br/>
+<sub>Try NovaHealth in your browser</sub>
+</td>
+<td align="center" width="33%">
+<a href="DEPLOY_QUICKSTART.md">
+<img src="https://img.shields.io/badge/📖_Deployment-Guide-2196F3?style=for-the-badge" alt="Deployment Guide"/>
+</a>
+<br/>
+<sub>Deploy your own instance</sub>
+</td>
+<td align="center" width="33%">
+<a href="#-getting-started">
+<img src="https://img.shields.io/badge/🚀_Quick_Start-5_Minutes-FF9800?style=for-the-badge" alt="Quick Start"/>
+</a>
+<br/>
+<sub>Get started in 5 minutes</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -18,175 +53,33 @@ NovaHealth is a privacy-first, AI-powered health intelligence platform designed 
 
 ## 📑 Table of Contents
 
-| 🎯 Getting Started | 🔧 Development | 📚 Resources |
-| :--- | :--- | :--- |
-| • [Highlights](#-highlights) | • [Project Structure](#-project-structure) | • [FAQ](#-frequently-asked-questions-faq) |
-| • [Screenshots](#-screenshots) | • [Architecture](#%EF%B8%8F-architecture) | • [Performance](#-performance-benchmarks) |
-| • [Disclaimer](#%EF%B8%8F-disclaimer) | • [API Documentation](#-api-documentation) | • [Tech Specs](#%EF%B8%8F-tech-specifications) |
-| • [Features](#-features) | • [Installation](#-getting-started) | • [Roadmap](#%EF%B8%8F-roadmap) |
+<table>
+<tr>
+<td valign="top" width="33%">
 
----
+### 🎯 Getting Started
+- [Highlights](#-highlights)
+- [Why NovaHealth?](#-why-novahealth)
+- [Screenshots](#-screenshots)
+- [Disclaimer](#%EF%B8%8F-disclaimer)
+- [Features](#-features)
+- [Tech Stack](#%EF%B8%8F-tech-stack)
+- [Platforms](#-platforms)
+- [Installation](#-getting-started)
+- [Quick Start](#quick-start-5-minutes)
 
-## 🌟 Highlights
+</td>
+<td valign="top" width="33%">
 
-- 🤖 **95.93% Accuracy** – TabNet ML models for obesity risk prediction.
-- 💬 **AI Chatbot** – Gemini-powered health assistant with 40+ language support.
-- 🔒 **Privacy First** – Offline-first architecture with AES-256 local encryption.
-- 🎯 **Smart Insights** – Pattern detection across nutrition, mood, sleep & activity.
-- 🗣️ **Voice Logging** – Natural Language Processing for hands-free health entry.
-- 📊 **Visual Analytics** – Glassmorphic charts for tracking longitudinal progress.
-
----
-
-## ⚠️ Disclaimer
-
-**NovaHealth is a wellness tracking application and is NOT intended for medical diagnosis or treatment.**
-
-- 🏥 Not a replacement for professional medical advice.
-- 🚨 In case of emergency, contact your local healthcare provider.
-- 📊 ML predictions are statistical estimates based on population data.
-
----
-
-## 📋 Features
-
-### 🧠 ML-Powered Intelligence
-- **Obesity Risk Prediction**: Deep learning via TabNet with 95.93% accuracy.
-- **Exercise Calorie Estimation**: Regression model (R²=0.9980) for high-precision burn tracking.
-- **Sugar Impact Analysis**: Predicts glucose spikes based on intake type (e.g., Chai vs. Soda) and provides corrective physical nudges.
-- **Menstrual Health**: Cycle irregularity detection with 91.06% accuracy.
-
-### 🏃 Comprehensive Tracking
-- **Workout Logger**: Tracks intensity, MET values, and duration.
-- **Hydration**: Smart reminders based on physical activity levels.
-- **Wellness**: Mood and symptom logging to identify correlations between diet and mental health.
-
-### 🤖 AI Engagement
-- **Gemini Integration**: Context-aware responses that analyze your local health data to provide personalized tips.
-- **Multi-language**: Fully accessible in English, Hindi, Spanish, Chinese, and more.
-
----
-
-## 🏗️ Tech Stack
-
-
-
-| Category | Technologies |
-| :--- | :--- |
-| **Frontend** | Flutter, Dart, Riverpod (State Management) |
-| **Backend** | FastAPI (Python), Uvicorn |
-| **AI/ML** | PyTorch, TabNet, Google Gemini API |
-| **Database** | SQLite (Local), Hive (Cache), Supabase (Cloud Sync) |
-| **Security** | Firebase Auth, AES-256 Encryption |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- **Flutter SDK**: 3.7+
-- **Python**: 3.9+ (for local ML backend)
-- **API Keys**: Google Gemini API Key
-
-### Quick Installation
-
-1. **Clone & Install Flutter**
-   ```bash
-   git clone [https://github.com/BhumiLodaya/Nova-SugarGuard.git](https://github.com/BhumiLodaya/Nova-SugarGuard.git)
-   cd Nova-SugarGuard
-   flutter pub get
-Configure API Keys
-Create lib/config/api_keys.dart:
-
-Dart
-class ApiKeys {
-  static const String geminiApiKey = 'YOUR_GEMINI_KEY';
-}
-Run Mobile/Web
-
-Bash
-flutter run -d chrome  # For Web
-flutter run -d android # For Android
-Local ML Backend (Optional)
-Bash
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-uvicorn fastapi_server:app --reload
-🏛️ Architecture
-NovaHealth follows a Layered Architecture to ensure scalability:
-
-Presentation: UI Widgets and Riverpod Providers.
-
-Domain/Business: Services (Auth, ML Client, Insights Engine).
-
-Data: Local (SQLite/Hive) and Remote (Firebase/Supabase).
-
-📡 API Documentation
-POST /predict/sugar-insight
-Request:
-
-JSON
-{
-  "sugarType": "cold_drink",
-  "bmi": 24.5,
-  "steps": 5000
-}
-Response:
-
-JSON
-{
-  "shortTermImpact": "40g of liquid sugar will spike glucose in 15m.",
-  "correctiveAction": "A 5-minute brisk walk will blunt this spike."
-}
-🚢 Deployment
-GitHub Pages (Automatic)
-The project is configured with GitHub Actions. Any push to the main branch automatically deploys the latest web version.
-
-URL: https://BhumiLodaya.github.io/Nova-SugarGuard/
-
-Manual Web Build
-Bash
-flutter build web --release --base-href="/Nova-SugarGuard/"
-🗺️ Roadmap
-[x] v1.0: Core ML models, Gemini Chat, and Cross-platform UI.
-
-[ ] v1.1: Apple Health & Google Fit Synchronization.
-
-[ ] v1.2: Computer Vision for meal photo recognition.
-
-[ ] v2.0: Federated Learning for improved privacy-preserving ML.
-
-🤝 Contributing
-Fork the Project.
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-
-Commit your Changes (git commit -m 'Add AmazingFeature').
-
-Push to the Branch (git push origin feature/AmazingFeature).
-
-Open a Pull Request.
-
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
-
-<div align="center">
-
-Made with ❤️ for the Beat the Sugar Spike Hackathon
-Bhumi Lodaya | LinkedIn | GitHub
-
-</div>
-
-
-Would you like me to generate a specific **"Architecture Diagram"** image description or help you draft the `LICENSE` file for this project?ucture)
+### 🔧 Development
+- [Project Structure](#-project-structure)
 - [Architecture](#%EF%B8%8F-architecture)
 - [API Documentation](#-api-documentation)
 - [Configuration](#-configuration)
 - [Testing](#-testing)
 - [Troubleshooting](#-troubleshooting)
 - [Deployment](#-deployment)
+- [Command Reference](#-quick-command-reference)
 
 </td>
 <td valign="top" width="33%">
@@ -195,6 +88,7 @@ Would you like me to generate a specific **"Architecture Diagram"** image descri
 - [FAQ](#-frequently-asked-questions-faq)
 - [Performance](#-performance-benchmarks)
 - [Tech Specs](#%EF%B8%8F-tech-specifications)
+- [ML Models](#-ml-model-performance)
 - [Contributing](#-contributing)
 - [Roadmap](#%EF%B8%8F-roadmap)
 - [License](#-license)
@@ -206,100 +100,312 @@ Would you like me to generate a specific **"Architecture Diagram"** image descri
 
 ---
 
+<div align="center">
+
+## 📊 At a Glance
+
+<table>
+<tr>
+<td align="center">
+<strong>🎯 95.93%</strong><br/>
+<sub>ML Accuracy</sub>
+</td>
+<td align="center">
+<strong>📱 6</strong><br/>
+<sub>Platforms</sub>
+</td>
+<td align="center">
+<strong>🌐 40+</strong><br/>
+<sub>Languages</sub>
+</td>
+<td align="center">
+<strong>🔒 100%</strong><br/>
+<sub>Privacy First</sub>
+</td>
+<td align="center">
+<strong>💰 Free</strong><br/>
+<sub>Open Source</sub>
+</td>
+<td align="center">
+<strong>⚡ <5ms</strong><br/>
+<sub>DB Queries</sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 ## 🌟 Highlights
 
-- 🤖 **95.93% Accuracy** - TabNet ML models for obesity risk prediction
-- 💬 **AI Chatbot** - Gemini-powered health assistant with 40+ language support
-- 🔒 **Privacy First** - Offline-first architecture with optional cloud sync
-- 🎯 **Smart Insights** - Pattern detection across nutrition, mood, sleep & activity
-- 🗣️ **Voice Logging** - Speech-to-text for quick health data entry
-- 📊 **Visual Analytics** - Beautiful charts and progress tracking
-- 🏆 **Gamification** - Streaks, milestones, and leaderboards
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 **ML-Powered Intelligence**
+- **95.93% Accuracy** for obesity risk prediction
+- **R²=0.9980** for exercise calorie estimation  
+- **91.06% Accuracy** for menstrual health analysis
+- Real-time sugar impact predictions
+
+### 💬 **AI Assistant**
+- Gemini-powered health chatbot
+- **40+ languages** supported
+- Context-aware personalized advice
+- Voice input for natural conversation
+
+### 🔒 **Privacy & Security**
+- **Offline-first** architecture
+- AES-256 encryption
+- Optional cloud sync (you control it)
+- No data selling or third-party sharing
+
+</td>
+<td width="50%">
+
+### 🎯 **Comprehensive Tracking**
+- Workout & exercise logging
+- Nutrition & calorie tracking
+- Hydration monitoring
+- Period & symptom tracking
+- Mood & wellness journaling
+
+### 📊 **Smart Analytics**
+- Pattern detection across all metrics
+- Visual charts & progress graphs
+- Health insights engine
+- Predictive health risk assessment
+
+### 🏆 **Engaging Experience**
+- Gamification with streaks & milestones
+- Glassmorphic modern UI
+- iPhone 16-inspired Dynamic Island
+- Cross-platform support (6 platforms)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💡 Why NovaHealth?
+
+> **Traditional health apps are reactive. NovaHealth is proactive.**
+
+<table>
+<tr>
+<th width="50%">😟 Traditional Health Apps</th>
+<th width="50%">✨ NovaHealth</th>
+</tr>
+<tr>
+<td>
+
+❌ Only track metrics<br/>
+❌ No actionable insights<br/>
+❌ Require internet/cloud<br/>
+❌ One-size-fits-all advice<br/>
+❌ Complex UI, hard to use<br/>
+❌ Privacy concerns<br/>
+❌ Expensive subscriptions
+
+</td>
+<td>
+
+✅ **Track + Predict + Prevent**<br/>
+✅ **AI-powered personalized insights**<br/>
+✅ **Works completely offline**<br/>
+✅ **Tailored to your health patterns**<br/>
+✅ **Beautiful, intuitive interface**<br/>
+✅ **Privacy-first by design**<br/>
+✅ **100% free and open-source**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+> **🎨 Beautiful, Modern, Functional**
+
+<table>
+<tr>
+<td align="center" width="25%">
+<strong>📊 Dashboard</strong><br/>
+<sub>Overview of your health metrics</sub>
+</td>
+<td align="center" width="25%">
+<strong>🏃 Health Tracking</strong><br/>
+<sub>Log workouts, meals, and more</sub>
+</td>
+<td align="center" width="25%">
+<strong>💬 AI Chatbot</strong><br/>
+<sub>Ask health questions anytime</sub>
+</td>
+<td align="center" width="25%">
+<strong>📈 Insights</strong><br/>
+<sub>ML-powered health predictions</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="25%">
+<strong>🩸 Period Tracker</strong><br/>
+<sub>Cycle tracking & predictions</sub>
+</td>
+<td align="center" width="25%">
+<strong>🍎 Nutrition</strong><br/>
+<sub>Food logging & calorie tracking</sub>
+</td>
+<td align="center" width="25%">
+<strong>😊 Mood Tracker</strong><br/>
+<sub>Emotional wellness journaling</sub>
+</td>
+<td align="center" width="25%">
+<strong>⚙️ Settings</strong><br/>
+<sub>Privacy controls & preferences</sub>
+</td>
+</tr>
+</table>
+
+_💻 [Try the live web app](https://BhumiLodaya.github.io/Nova-SugarGuard/) to see it in action!_
+
+</div>
 
 ---
 
 ## ⚠️ Disclaimer
 
+<div align="center">
+
+### 🏥 Important Medical Disclaimer
+
+</div>
+
 **NovaHealth is a wellness tracking application and is NOT intended for medical diagnosis, treatment, or prevention of disease.**
 
-- 🏥 This app is for **informational and educational purposes only**
-- 👨‍⚕️ Always consult qualified healthcare professionals for medical advice
-- 🚨 In case of emergency, contact your local emergency services immediately
-- 📊 ML predictions are statistical estimates, not medical diagnoses
-- 🔬 Health insights are based on patterns, not clinical assessments
+<table>
+<tr>
+<td width="50%">
+
+#### ⚕️ What NovaHealth IS:
+- ✅ A health & wellness tracking tool
+- ✅ Educational health information resource
+- ✅ Personal data visualization platform
+- ✅ AI-powered health insights generator
+- ✅ Goal tracking and motivation system
+
+</td>
+<td width="50%">
+
+#### ⛔ What NovaHealth is NOT:
+- ❌ Medical diagnostic tool
+- ❌ Replacement for healthcare professionals
+- ❌ Emergency medical service
+- ❌ Clinical-grade monitoring device
+- ❌ FDA-approved medical device
+
+</td>
+</tr>
+</table>
 
 **By using NovaHealth, you acknowledge that:**
-- The app does not replace professional medical care
-- You should not rely solely on the app for health decisions
-- The developers are not liable for any health outcomes
-- You use the app at your own risk
+- 🏥 The app does not replace professional medical care
+- 👨‍⚕️ Always consult qualified healthcare professionals for medical advice
+- 🚨 In case of emergency, contact local emergency services (911, 112, etc.) immediately
+- 📊 ML predictions are statistical estimates, not medical diagnoses
+- 🔬 Health insights are based on patterns, not clinical assessments
+- ⚠️ You should not rely solely on the app for health decisions
+- 📋 The developers are not liable for any health outcomes
+- ✋ You use the app at your own risk and discretion
 
 ---
 
 ## 📋 Features
 
-### 🏃 Health Tracking
-- **Workout Logger** - Track exercises, duration, intensity, and calories burned
-- **Hydration Monitor** - Log water intake with smart reminders and daily goals
-- **Period Tracker** - Menstrual cycle tracking with symptom logging and predictions
-- **Mood Tracker** - Daily mood logging with intensity and contributing factors
-- **Symptom Logger** - Record and monitor health symptoms with severity levels
-- **Nutrition Tracker** - Food logging with calorie counting and USDA database
+<div align="center">
 
-### 🧠 ML-Powered Health Intelligence
-- **Obesity Risk Prediction** - 95.93% accuracy using TabNet neural networks
-- **Exercise Calorie Prediction** - R²=0.9980 for precise calorie burn estimates
-- **Menstrual Health Analysis** - 91.06% accuracy for cycle irregularity detection
-- **Sugar Impact Analysis** - Real-time glucose spike predictions with corrective actions
-- **Health Insights Engine** - Rule-based pattern detection across all metrics:
-  - Weight & Activity Correlation
-  - Sleep Pattern Analysis
-  - Hydration-Mood Correlation
-  - Exercise Consistency
-  - Recovery Analysis
-  - Nutrition Trends
+### 🎯 Comprehensive Health Management Platform
 
-### 🤖 AI Features
-- **Health Chatbot** - Gemini-powered conversational AI for personalized health guidance
-- **Multi-language Support** - 40+ languages supported (English, Spanish, Hindi, Chinese, etc.)
-- **Context-Aware Responses** - Chatbot accesses your health data for personalized advice
-- **Voice Input** - Speech-to-text for natural conversation
-- **Chat History** - Persistent conversations across sessions
+</div>
 
-### 🔐 Security & Privacy
-- **Firebase Authentication** - Secure email/password login with industry standards
-- **Multi-Factor Authentication** - SMS-based 2FA for enhanced security
-- **End-to-End Encryption** - Local data encryption with AES-256
-- **Offline-First** - All data stored locally by default
-- **Optional Cloud Sync** - Backup to Supabase/Firebase (user-controlled)
-- **Guest Mode** - Use app without creating an account
-
-### 🎨 User Experience
-- **Glassmorphic UI** - Modern frosted glass design with smooth animations
-- **Dynamic Island** - iPhone 16-inspired header with live health stats
-- **Quick Actions** - One-tap logging for common activities
-- **Success Animations** - Delightful feedback for completed actions
-- **Streak System** - Daily logging streaks with milestone celebrations
-- **Health Calendar** - Visual timeline of all health events
-- **Dark/Light Theme** - Automatic theme switching
-
-### 🌐 Cross-Platform Support
 <table>
-  <tr>
-    <td align="center">📱 Android</td>
-    <td align="center">🍎 iOS</td>
-    <td align="center">🌐 Web</td>
-  </tr>
-  <tr>
-    <td align="center">💻 Windows</td>
-    <td align="center">🖥️ macOS</td>
-    <td align="center">🐧 Linux</td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏃 **Health Tracking**
+
+#### 💪 Physical Activity
+- ✅ **Workout Logger** — Track exercises, duration, intensity & calories
+- ✅ **Exercise History** — View past workouts and progress trends
+- ✅ **Activity Insights** — AI-powered workout recommendations
+
+#### 💧 Hydration & Nutrition
+- ✅ **Hydration Monitor** — Log water intake with smart reminders
+- ✅ **Nutrition Tracker** — Food logging with USDA database integration
+- ✅ **Calorie Counter** — Track daily caloric intake and burn
+- ✅ **Meal Planning** — Plan meals and track macronutrients
+
+#### 🩸 Women's Health
+- ✅ **Period Tracker** — Menstrual cycle tracking with predictions
+- ✅ **Symptom Logger** — Record cycle symptoms and patterns
+- ✅ **Fertility Window** — Ovulation and fertility predictions
+
+#### 😊 Mental Wellness
+- ✅ **Mood Tracker** — Daily mood logging with intensity levels
+- ✅ **Symptom Monitor** — Record and track health symptoms
+- ✅ **Wellness Journal** — Reflect on contributing factors
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 **AI-Powered Intelligence**
+
+#### 🤖 Machine Learning Models
+- ✅ **Obesity Risk**: 95.93% accuracy with TabNet
+- ✅ **Exercise Calories**: R²=0.9980 prediction accuracy
+- ✅ **Menstrual Health**: 91.06% cycle irregularity detection
+- ✅ **Sugar Impact**: Real-time glucose spike predictions
+
+#### 🔍 Health Insights Engine
+- ✅ Weight & Activity Correlation Analysis
+- ✅ Sleep Pattern Detection
+- ✅ Hydration-Mood Correlation
+- ✅ Exercise Consistency Scoring
+- ✅ Recovery Analysis & Recommendations
+- ✅ Nutrition Trend Identification
+
+#### 💬 AI Chatbot (Gemini)
+- ✅ **40+ Languages** — Multilingual health guidance
+- ✅ **Context-Aware** — Accesses your health data
+- ✅ **Voice Input** — Speech-to-text conversations
+- ✅ **Persistent History** — Conversations saved locally
+
+#### 🔐 Privacy & Security
+- ✅ **Offline-First** — All data stored locally by default
+- ✅ **AES-256 Encryption** — Military-grade data protection
+- ✅ **Optional Cloud Sync** — You control your data
+- ✅ **Guest Mode** — Use without account creation
+- ✅ **Multi-Factor Auth** — SMS-based 2FA protection
+
+#### 🎨 User Experience
+- ✅ **Glassmorphic UI** — Modern frosted glass design
+- ✅ **Dynamic Island** — iPhone 16-inspired header
+- ✅ **Quick Actions** — One-tap logging shortcuts
+- ✅ **Streak System** — Daily logging rewards
+- ✅ **Health Calendar** — Visual timeline of events
+- ✅ **Dark/Light Theme** — Auto-switching modes
+
+</td>
+</tr>
 </table>
 
 ---
 
-## 🏗️ Tech Stack
+## ️ Tech Stack
 
 <table>
   <tr>
@@ -344,51 +450,112 @@ Would you like me to generate a specific **"Architecture Diagram"** image descri
 
 ## 🎯 Platforms
 
-All platforms use the same codebase with native compilation:
+<div align="center">
 
-- ✅ **Android** (API 21+) - Native ARM/x64
-- ✅ **iOS** (iOS 12+) - Native ARM64
-- ✅ **Web** (All modern browsers) - Progressive Web App
-- ✅ **Windows** (Windows 10+) - Native Win32/UWP
-- ✅ **macOS** (macOS 10.14+) - Native Cocoa
-- ✅ **Linux** (GTK 3.0+) - Native x64
+**✨ One codebase, six platforms — native experience everywhere**
+
+</div>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>📱 Mobile</strong><br/><br/>
+      ✅ <strong>Android</strong> (API 21+) — Native ARM/x64<br/>
+      ✅ <strong>iOS</strong> (iOS 12+) — Native ARM64
+    </td>
+    <td align="center" width="50%">
+      <strong>💻 Desktop</strong><br/><br/>
+      ✅ <strong>Windows</strong> (10+) — Native Win32/UWP<br/>
+      ✅ <strong>macOS</strong> (10.14+) — Native Cocoa<br/>
+      ✅ <strong>Linux</strong> (GTK 3.0+) — Native x64
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <strong>🌐 Web</strong><br/><br/>
+      ✅ <strong>Progressive Web App</strong> — All modern browsers (Chrome, Firefox, Safari, Edge)
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🚀 Getting Started
 
+<div align="center">
+
+### 🎯 Choose Your Path
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 👤 **For Users**
+
+**Just want to use the app?**
+
+🌐 **[Try the Web App →](https://BhumiLodaya.github.io/Nova-SugarGuard/)**
+
+No installation required!  
+Works on any device with a browser.
+
+</td>
+<td align="center" width="50%">
+
+### 👨‍💻 **For Developers**
+
+**Want to build locally?**
+
+Follow the [Quick Start](#quick-start-5-minutes) below.
+
+Requires Flutter SDK installed.
+
+</td>
+</tr>
+</table>
+
+---
+
 ### Prerequisites
 
 <table>
   <tr>
-    <th>Tool</th>
-    <th>Version</th>
-    <th>Purpose</th>
+    <th width="25%">Tool</th>
+    <th width="15%">Version</th>
+    <th width="35%">Purpose</th>
+    <th width="25%">Required?</th>
   </tr>
   <tr>
     <td><a href="https://flutter.dev/docs/get-started/install">Flutter SDK</a></td>
-    <td>3.7+</td>
+    <td><code>3.7+</code></td>
     <td>Mobile & Desktop UI</td>
+    <td>✅ <strong>Required</strong></td>
   </tr>
   <tr>
     <td><a href="https://dart.dev/get-dart">Dart SDK</a></td>
-    <td>3.0+</td>
+    <td><code>3.0+</code></td>
     <td>Included with Flutter</td>
+    <td>✅ <strong>Auto-installed</strong></td>
   </tr>
   <tr>
     <td><a href="https://developer.android.com/studio">Android Studio</a></td>
     <td>Latest</td>
-    <td>Android builds (optional)</td>
+    <td>Android builds</td>
+    <td>⚪ Optional</td>
   </tr>
   <tr>
     <td><a href="https://developer.apple.com/xcode/">Xcode</a></td>
-    <td>14+</td>
-    <td>iOS/macOS builds (Mac only)</td>
+    <td><code>14+</code></td>
+    <td>iOS/macOS builds</td>
+    <td>⚪ Optional (Mac only)</td>
   </tr>
   <tr>
     <td><a href="https://www.python.org/downloads/">Python</a></td>
-    <td>3.9+</td>
-    <td>ML backend (optional)</td>
+    <td><code>3.9+</code></td>
+    <td>ML backend (local)</td>
+    <td>⚪ Optional</td>
   </tr>
 </table>
 
@@ -396,8 +563,8 @@ All platforms use the same codebase with native compilation:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/yourusername/nova-health.git
-cd nova-health
+git clone https://github.com/BhumiLodaya/Nova-SugarGuard.git
+cd Nova-SugarGuard
 
 # 2️⃣ Install Flutter dependencies
 flutter pub get
@@ -574,345 +741,58 @@ flutter build windows --release
 
 ```
 nova-health/
-├── 📱 android/             # Android native code
-├── 🍎 ios/                 # iOS native code
-├── 🌐 web/                 # Web-specific assets
-├── 💻 windows/             # Windows native code
-├── 🖥️  macos/              # macOS native code
-├── 🐧 linux/               # Linux native code
-│
-├── 🎯 lib/                 # Main Flutter application
-│   ├── config/             # App configuration
-│   │   ├── routes.dart           # Navigation routes
-│   │   ├── theme.dart            # App theming
-│   │   └── supabase_config.dart  # Cloud sync config
-│   │
-│   ├── models/             # Data models (with Hive adapters)
-│   │   ├── user_model.dart
-│   │   ├── workout_model.dart
-│   │   ├── food_log_model.dart
-│   │   ├── hydration_model.dart
-│   │   ├── mood_log_model.dart
-│   │   ├── period_cycle_model.dart
-│   │   ├── symptom_model.dart
-│   │   └── health_metric_model.dart
-│   │
-│   ├── pages/              # UI screens
-│   │   ├── auth/                 # Authentication
-│   │   │   ├── landing_page.dart
-│   │   │   ├── login_page.dart
-│   │   │   ├── signup_page.dart
-│   │   │   ├── forgot_password_page.dart
-│   │   │   ├── mfa_challenge_page.dart
-│   │   │   └── consent_screen.dart
-│   │   │
-│   │   ├── home/                 # Main navigation
-│   │   │   └── home_page.dart
-│   │   │
-│   │   ├── dashboard/            # Health overview
-│   │   │   └── dashboard_page.dart
-│   │   │
-│   │   ├── tracking/             # Health tracking
-│   │   │   ├── workout_log_page.dart
-│   │   │   ├── hydration_page.dart
-│   │   │   ├── period_tracker_page.dart
-│   │   │   └── symptoms_page.dart
-│   │   │
-│   │   ├── nutrition/            # Food & meal tracking
-│   │   │   ├── nutrition_page.dart
-│   │   │   └── meal_plan_page.dart
-│   │   │
-│   │   ├── wellness/             # Mental wellness
-│   │   │   ├── mood_tracker_page.dart
-│   │   │   └── meditation_page.dart
-│   │   │
-│   │   ├── chatbot/              # AI assistant
-│   │   │   └── chatbot_page.dart
-│   │   │
-│   │   ├── profile/              # User profile
-│   │   │   ├── profile_page.dart
-│   │   │   ├── edit_profile_page.dart
-│   │   │   └── change_password_page.dart
-│   │   │
-│   │   ├── settings/             # App settings
-│   │   │   ├── settings_page.dart
-│   │   │   ├── mfa_settings_page.dart
-│   │   │   ├── language_page.dart
-│   │   │   └── sync_test_page.dart
-│   │   │
-│   │   ├── calendar/             # Health calendar
-│   │   │   └── health_calendar_page.dart
-│   │   │
-│   │   ├── leaderboard/          # Gamification
-│   │   │   └── leaderboard_page.dart
-│   │   │
-│   │   ├── onboarding/           # First-time user flow
-│   │   │   └── onboarding_page.dart
-│   │   │
-│   │   └── health_risk_page.dart # ML predictions
-│   │
-│   ├── providers/          # State management (Riverpod)
-│   │   ├── auth_provider.dart
-│   │   ├── health_provider.dart
-│   │   ├── nutrition_providers.dart
-│   │   ├── tracking_providers.dart
-│   │   ├── wellness_providers.dart
-│   │   ├── streak_provider.dart
-│   │   └── sugar_log_provider.dart
-│   │
-│   ├── services/           # Business logic & APIs
-│   │   ├── auth_service.dart             # Authentication
-│   │   ├── database_service.dart         # Local database
-│   │   ├── sqlite_service.dart           # SQLite operations
-│   │   ├── supabase_service.dart         # Cloud sync
-│   │   ├── database_sync_service.dart    # Sync logic
-│   │   ├── ml_prediction_service.dart    # ML API client
-│   │   ├── chatbot_service.dart          # Gemini AI
-│   │   ├── voice_log_service.dart        # Speech-to-text
-│   │   ├── health_insights_engine.dart   # Pattern detection
-│   │   ├── sugar_insight_service.dart    # Sugar analysis
-│   │   ├── security_service.dart         # Encryption
-│   │   ├── guest_service.dart            # Guest mode
-│   │   └── backend_keepalive_service.dart # Keep ML server awake
-│   │
-│   ├── widgets/            # Reusable UI components
-│   │   ├── custom_button.dart
-│   │   ├── custom_text_field.dart
-│   │   ├── glass_widgets.dart
-│   │   ├── quick_action_card.dart
-│   │   ├── quick_log_widget.dart
-│   │   ├── streak_widgets.dart
-│   │   ├── success_animation_overlay.dart
-│   │   └── signup_gate_card.dart
-│   │
-│   ├── utils/              # Helper functions
-│   │   ├── constants.dart
-│   │   ├── validators.dart
-│   │   ├── helpers.dart
-│   │   ├── data_export.dart
-│   │   └── demo_data_seeder.dart
-│   │
-│   ├── main.dart           # App entry point
-│   └── firebase_options.dart
-│
-├── 🤖 backend/             # Python ML Backend
-│   ├── fastapi_server.py         # FastAPI application
-│   ├── lightweight_models.py     # Model optimization
-│   ├── optimize_models.py        # Training scripts
-│   ├── requirements.txt          # Python dependencies
-│   ├── runtime.txt               # Python version
-│   ├── Procfile                  # Render deployment
-│   ├── railway.json              # Railway deployment
-│   │
-│   └── optimized_models/         # Trained ML models
-│       ├── obesity/              # Obesity prediction model
-│       ├── exercise/             # Exercise calorie model
-│       ├── menstrual/            # Menstrual health model
-│       └── metrics.json          # Model performance
-│
-├── 📊 ml_models/           # ML training datasets
-├── 📈 ml_reports/          # Training reports
-├── 🧪 test/                # Unit & widget tests
-├── 📄 pubspec.yaml         # Flutter dependencies
-├── 🔥 firebase.json        # Firebase config
-├── 📋 README.md            # This file
-└── 📜 LICENSE              # MIT License
+├── 📱 android/ios/web/windows/macos/linux/  # Platform-specific code
+├── 🎯 lib/                                   # Main Flutter app
+│   ├── config/       # Routes, theme, config
+│   ├── models/       # Data models (User, Workout, Mood, etc.)
+│   ├── pages/        # UI screens (Auth, Dashboard, Tracking, Chatbot, etc.)
+│   ├── providers/    # State management (Riverpod)
+│   ├── services/     # Business logic (Auth, ML, Database, AI)
+│   ├── widgets/      # Reusable UI components
+│   ├── utils/        # Helper functions
+│   └── main.dart     # App entry point
+├── 🤖 backend/                               # Python ML Backend
+│   ├── fastapi_server.py     # API server
+│   ├── requirements.txt      # Dependencies
+│   └── optimized_models/     # Trained models
+├── 📊 ml_models/     # Training datasets
+├── 🧪 test/          # Unit & widget tests
+└── 📄 pubspec.yaml   # Flutter dependencies
 ```
 
 ---
 
 ## 🏛️ Architecture
 
-### Frontend Architecture (Flutter)
+**Frontend:** Flutter UI → Riverpod State → Services → SQLite/Hive (local) + Firebase/Supabase (cloud)
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                     Presentation Layer                   │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌─────────┐ │
-│  │  Pages   │  │ Widgets  │  │  Theme   │  │ Routes  │ │
-│  └────┬─────┘  └────┬─────┘  └──────────┘  └─────────┘ │
-└───────┼────────────┼─────────────────────────────────────┘
-        │            │
-        ▼            ▼
-┌─────────────────────────────────────────────────────────┐
-│                  State Management Layer                  │
-│  ┌──────────────────────────────────────────────────┐   │
-│  │           Riverpod Providers                     │   │
-│  │  • Auth Provider    • Health Provider            │   │
-│  │  • Nutrition        • Tracking                   │   │
-│  │  • Wellness         • Streak                     │   │
-│  └──────────────────────────────────────────────────┘   │
-└─────────────────────────┬───────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────────┐
-│                     Business Logic Layer                 │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │
-│  │   Services   │  │  Insights    │  │    Utils     │  │
-│  │              │  │   Engine     │  │              │  │
-│  └──────────────┘  └──────────────┘  └──────────────┘  │
-└───────────┬─────────────────────────────────────────────┘
-            │
-            ▼
-┌─────────────────────────────────────────────────────────┐
-│                      Data Layer                          │
-│  ┌─────────┐  ┌─────────┐  ┌──────────┐  ┌──────────┐ │
-│  │ SQLite  │  │  Hive   │  │ Firebase │  │ Supabase │ │
-│  │ (Local) │  │ (Cache) │  │ (Cloud)  │  │ (Cloud)  │ │
-│  └─────────┘  └─────────┘  └──────────┘  └──────────┘ │
-└─────────────────────────────────────────────────────────┘
-```
+**Backend:** FastAPI REST API → TabNet ML Models (PyTorch) → Health Predictions
 
-### Backend Architecture (FastAPI + ML)
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                      Client (Flutter)                    │
-└────────────────────────┬────────────────────────────────┘
-                         │ HTTP/REST
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│                   FastAPI Server                         │
-│  ┌───────────────────────────────────────────────────┐  │
-│  │              API Endpoints                        │  │
-│  │  • /predict/health-risk                           │  │
-│  │  • /predict/obesity                               │  │
-│  │  • /predict/exercise                              │  │
-│  │  • /predict/menstrual                             │  │
-│  │  • /predict/sugar-insight                         │  │
-│  └───────────────────────┬───────────────────────────┘  │
-└───────────────────────────┼──────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────┐
-│                   ML Pipeline                            │
-│  ┌─────────────────┐  ┌─────────────────┐              │
-│  │ Data Processing │→ │   TabNet Model  │              │
-│  │ • Normalization │  │  • PyTorch      │              │
-│  │ • Feature Eng   │  │  • Inference    │              │
-│  └─────────────────┘  └─────────────────┘              │
-└─────────────────────────────────────────────────────────┘
-```
-
-### Data Flow
-
-```
-User Input → Flutter UI → Riverpod Provider → Service Layer
-                                                    │
-                          ┌─────────────────────────┼─────────────────────┐
-                          │                         │                     │
-                          ▼                         ▼                     ▼
-                    SQLite (Local)            ML Backend            Gemini AI
-                          │                    (FastAPI)           (Chatbot)
-                          ▼                         │                     │
-                    Cloud Sync                      │                     │
-                  (Optional Backup)                 │                     │
-                          │                         │                     │
-                          └─────────────────────────┴─────────────────────┘
-                                              │
-                                              ▼
-                                      User gets insights
-```
+**AI:** Gemini API → Context-Aware Chatbot → Personalized Health Guidance
 
 ---
 
 ## 📡 API Documentation
 
-### ML Backend
+**🌐 Live API:** `https://novahealth-backend.onrender.com`
 
-The ML backend is hosted on Render.com and provides health predictions via REST API.
+### Key Endpoints
 
-**🌐 Live API**: `https://novahealth-backend.onrender.com`
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | Health check |
+| `/predict/health-risk` | POST | Comprehensive health assessment |
+| `/predict/obesity` | POST | Obesity risk prediction |
+| `/predict/exercise` | POST | Exercise calorie estimation |
+| `/predict/menstrual` | POST | Menstrual health analysis |
+| `/predict/sugar-insight` | POST | Sugar impact analysis |
 
-#### Endpoints
-
-##### 1. Health Check
-
-```http
-GET /
-```
-
-**Response:**
-```json
-{
-  "status": "healthy",
-  "message": "NovaHealth ML API is running",
-  "models": {
-    "obesity": "loaded",
-    "exercise": "not_loaded",
-    "menstrual": "not_loaded"
-  }
-}
-```
-
----
-
-##### 2. Comprehensive Health Risk Assessment
-
-```http
-POST /predict/health-risk
-```
-
-**Request Body:**
-```json
-{
-  "age": 28,
-  "gender": "female",
-  "weight": 65,
-  "height": 165,
-  "activityLevel": "moderately_active",
-  "targetWeight": 60,
-  "totalWaterMl": 2000,
-  "hydrationLogs": [
-    {"timestamp": "2024-01-15T08:00:00Z", "amount_ml": 250}
-  ],
-  "moodLogs": [
-    {
-      "mood": "happy",
-      "intensity": 8,
-      "factors": ["exercise", "good_sleep"]
-    }
-  ],
-  "symptoms": [
-    {"type": "headache", "severity": 3}
-  ],
-  "exerciseDuration": 30,
-  "exerciseIntensity": 7,
-  "heartRate": 145
-}
-```
-
-**Response:**
-```json
-{
-  "obesityRisk": {
-    "risk_level": "low",
-    "risk_score": 0.15,
-    "bmi": 23.9,
-    "bmi_category": "normal"
-  },
-  "exerciseMetrics": {
-    "predicted_calories": 285,
-    "met_value": 8.5,
-    "intensity_level": "moderate"
-  },
-  "recommendations": [
-    "Excellent hydration! Keep it up.",
-    "Your workout intensity is optimal for your age group."
-  ]
-}
-```
-
----
-
-##### 3. Obesity Risk Prediction
+### Example: Obesity Risk Prediction
 
 ```http
 POST /predict/obesity
-```
+Content-Type: application/json
 
-**Request Body:**
-```json
 {
   "age": 35,
   "gender": "male",
@@ -928,63 +808,11 @@ POST /predict/obesity
   "risk_level": "moderate",
   "risk_score": 0.62,
   "bmi": 27.8,
-  "bmi_category": "overweight",
-  "confidence": 0.89,
-  "recommendations": [
-    "Consider increasing physical activity to 150 min/week",
-    "Focus on reducing 5-10% body weight gradually"
-  ]
+  "confidence": 0.89
 }
 ```
 
----
-
-##### 4. Sugar Impact Insight
-
-```http
-POST /predict/sugar-insight
-```
-
-**Request Body:**
-```json
-{
-  "sugarType": "cold_drink",
-  "bmi": 24.5,
-  "steps": 5000
-}
-```
-
-**Response:**
-```json
-{
-  "shortTermImpact": "~40 g of liquid sugar will spike your blood glucose within 15 minutes. Expect an energy crash in ~90 min.",
-  "correctiveAction": "Good step count so far. A quick 5-minute stair climb or 20 squats will blunt the spike."
-}
-```
-
-**Sugar Types:**
-- `chai` - Tea with sugar (~10g)
-- `cold_drink` - Soda/juice (~40g)
-- `sweets` - Desserts (~30g)
-- `snack` - Packaged snacks (~15g)
-
----
-
-### Error Responses
-
-**400 Bad Request:**
-```json
-{
-  "detail": "Invalid input parameters"
-}
-```
-
-**500 Internal Server Error:**
-```json
-{
-  "detail": "Model inference failed"
-}
-```
+_For full API documentation, see the [backend README](backend/README.md)._
 
 ---
 
@@ -1263,91 +1091,36 @@ railway up
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ)
+## ❓ FAQ
 
 <details>
-<summary><strong>Is NovaHealth free to use?</strong></summary>
-
-Yes! NovaHealth is completely free and open-source under the MIT License. All core features are available without any subscription or payment.
-
+<summary><strong>Is NovaHealth free?</strong></summary>
+Yes! Completely free and open-source under MIT License.
 </details>
 
 <details>
-<summary><strong>Do I need an account to use the app?</strong></summary>
-
-No! NovaHealth has a Guest Mode that lets you use all features without creating an account. Your data stays on your device. Creating an account enables cloud backup and sync across devices.
-
+<summary><strong>Do I need an account?</strong></summary>
+No! Guest Mode lets you use all features offline. Account enables cloud sync.
 </details>
 
 <details>
-<summary><strong>Is my health data secure?</strong></summary>
-
-Absolutely! NovaHealth uses:
-- Offline-first architecture (data stays on your device)
-- AES-256 encryption for local storage
-- Optional cloud sync (you control it)
-- No data selling or third-party sharing
-- Firebase/Supabase for secure cloud backup
+<summary><strong>Is my data secure?</strong></summary>
+Yes! Offline-first with AES-256 encryption. Optional cloud sync. No data selling.
 </details>
 
 <details>
-<summary><strong>Which platforms are supported?</strong></summary>
-
-NovaHealth runs on all major platforms:
-- 📱 Mobile: Android, iOS
-- 🌐 Web: All modern browsers
-- 💻 Desktop: Windows, macOS, Linux
+<summary><strong>Which platforms?</strong></summary>
+Android, iOS, Web, Windows, macOS, Linux.
 </details>
 
 <details>
-<summary><strong>Can I use NovaHealth offline?</strong></summary>
-
-Yes! NovaHealth is designed offline-first. All features work without internet except:
-- AI Chatbot (requires Gemini API)
-- ML Predictions (requires backend API)
-- Cloud sync
-
-Your data is always saved locally.
+<summary><strong>How accurate are ML predictions?</strong></summary>
+Obesity: 95.93%, Exercise: R²=0.9980, Menstrual: 91.06%. Note: Statistical estimates, not medical diagnoses.
 </details>
 
 <details>
-<summary><strong>How accurate are the ML predictions?</strong></summary>
-
-Our models achieve high accuracy:
-- Obesity Risk: 95.93%
-- Exercise Calories: R²=0.9980
-- Menstrual Health: 91.06%
-
-However, these are statistical estimates, not medical diagnoses. Always consult healthcare professionals.
-</details>
-
-<details>
-<summary><strong>Can I export my health data?</strong></summary>
-
-Yes! You can export all your data to:
-- CSV format (for Excel/Google Sheets)
-- JSON format (for developers)
-- PDF reports (coming soon)
-
-Go to Settings → Export Data
-</details>
-
-<details>
-<summary><strong>Does NovaHealth integrate with Apple Health or Google Fit?</strong></summary>
-
-Not yet, but it's on our roadmap for v1.1! Currently, you need to manually log data in the app.
-</details>
-
-<details>
-<summary><strong>Is NovaHealth HIPAA compliant?</strong></summary>
-
-NovaHealth is a personal wellness app, not a medical records system, so HIPAA doesn't directly apply. However, we follow best practices for data security and privacy.
-</details>
-
-<details>
-<summary><strong>Can I contribute to the project?</strong></summary>
-
-Yes! We welcome contributions. See the [Contributing](#-contributing) section below for guidelines.
+<summary><strong>Can I export data?</strong></summary>
+Yes! CSV, JSON formats. Settings → Export Data.
 </details>
 
 ---
@@ -1425,268 +1198,102 @@ Yes! We welcome contributions. See the [Contributing](#-contributing) section be
 
 ## 🛠️ Tech Specifications
 
-### Frontend (Flutter)
+**Frontend:** Flutter 3.7+, Dart 3.0+, Riverpod, SQLite, Hive, fl_chart
 
-```yaml
-SDK: Flutter 3.7+, Dart 3.0+
-State Management: Riverpod 2.5+
-Local Storage: SQLite + Hive
-Animations: Custom spring animations
-Charts: fl_chart 0.66+
-HTTP Client: http 1.2+
-```
+**Backend:** Python 3.9+, FastAPI 0.115+, PyTorch 2.5+, TabNet 4.1+, Uvicorn
 
-### Backend (Python)
+**AI/ML:** Google Gemini API, TabNet neural networks, Scikit-learn
 
-```python
-Framework: FastAPI 0.115+
-ML Framework: PyTorch 2.5+
-Model: TabNet 4.1+
-Server: Uvicorn (ASGI)
-Deployment: Docker, Render.com
-Memory: Optimized for 512MB RAM
-```
+**Database:** SQLite (local), Hive (cache), Firebase/Supabase (cloud)
 
-### Security
-
-```
-Encryption: AES-256
-Authentication: Firebase Auth (JWT)
-MFA: SMS-based (Twilio)
-Storage: flutter_secure_storage
-API Security: CORS, Rate limiting
-```
+**Security:** AES-256 encryption, Firebase Auth (JWT), SMS-based MFA
 
 ---
 
-## 📋 Quick Command Reference
-
-### Flutter Commands
+## 📋 Quick Commands
 
 ```bash
-# Development
-flutter run -d chrome          # Run on Chrome
-flutter run -d android         # Run on Android
-flutter hot-reload            # Hot reload (r in terminal)
-flutter hot-restart           # Hot restart (R in terminal)
+# Run App
+flutter run -d chrome              # Web
+flutter run -d android             # Android
 
-# Code Quality
-flutter analyze               # Static analysis
-dart format .                 # Format code
-flutter test                  # Run tests
-flutter test --coverage       # Test with coverage
+# Build
+flutter build web --release        # Web build
+flutter build apk --release        # Android APK
 
-# Build Release
-flutter build apk --release           # Android APK
-flutter build appbundle --release     # Android App Bundle
-flutter build ipa --release           # iOS
-flutter build web --release           # Web
-flutter build windows --release       # Windows
-flutter build macos --release         # macOS
-flutter build linux --release         # Linux
+# Test & Analyze
+flutter test                       # Run tests
+flutter analyze                    # Code analysis
 
-# Maintenance
-flutter clean                 # Clean build cache
-flutter pub get               # Install dependencies
-flutter pub upgrade           # Upgrade dependencies
-flutter doctor                # Check setup
-flutter devices               # List connected devices
-```
-
-### Python Backend Commands
-
-```bash
-# Environment Setup
-python -m venv venv                          # Create virtual env
-source venv/bin/activate                     # Activate (Unix)
-venv\Scripts\activate                        # Activate (Windows)
-
-# Dependencies
-pip install -r requirements.txt              # Install packages
-pip freeze > requirements.txt                # Save packages
-
-# Development
-uvicorn fastapi_server:app --reload          # Run with auto-reload
-uvicorn fastapi_server:app --host 0.0.0.0 --port 8000  # Production
-
-# Testing
-pytest                                       # Run tests
-pytest --cov                                 # With coverage
-```
-
-### Git Commands
-
-```bash
-# Setup
-git clone <repo-url>                         # Clone repository
-git checkout -b feature/name                 # Create branch
-
-# Development
-git status                                   # Check status
-git add .                                    # Stage changes
-git commit -m "message"                      # Commit
-git push origin branch-name                  # Push to GitHub
-
-# Sync
-git pull origin main                         # Pull latest
-git merge main                               # Merge main into branch
-```
-
-### Database Commands (SQLite)
-
-```bash
-# Open database
-sqlite3 novahealth.db
-
-# Common queries
-.tables                                      # List tables
-.schema table_name                           # Show schema
-SELECT * FROM health_metrics LIMIT 10;      # Query data
-.exit                                        # Exit SQLite
+# Backend (optional)
+cd backend
+pip install -r requirements.txt
+uvicorn fastapi_server:app --reload
 ```
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions! Here's how to help:
 
-### Ways to Contribute
+**Ways to Contribute:**
+1. 🐛 Report bugs via [GitHub Issues](https://github.com/BhumiLodaya/Nova-SugarGuard/issues)
+2. 💡 Suggest features in [Discussions](https://github.com/BhumiLodaya/Nova-SugarGuard/discussions)
+3. 🔧 Submit pull requests with improvements
+4. 📝 Improve documentation
 
-1. 🐛 **Report Bugs** - Open an issue with detailed reproduction steps
-2. 💡 **Suggest Features** - Share your ideas for new features
-3. 📝 **Improve Documentation** - Fix typos, add examples
-4. 🎨 **Design Improvements** - Suggest UI/UX enhancements
-5. 🔧 **Code Contributions** - Submit pull requests
+**Quick Start:**
+```bash
+# Fork & clone
+git clone https://github.com/BhumiLodaya/Nova-SugarGuard.git
+cd Nova-SugarGuard
 
-### Development Workflow
+# Create branch
+git checkout -b feature/your-feature
 
-1. **Fork the Repository**
-   ```bash
-   # Click "Fork" on GitHub
-   git clone https://github.com/yourusername/nova-health.git
-   cd nova-health
-   ```
+# Make changes, test, commit
+flutter test
+flutter analyze
+git commit -m "Add: your feature"
 
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
+# Push & create PR
+git push origin feature/your-feature
+```
 
-3. **Make Changes**
-   - Follow Dart style guide
-   - Add tests for new features
-   - Update documentation
-
-4. **Test Your Changes**
-   ```bash
-   flutter test
-   flutter analyze
-   dart format .
-   ```
-
-5. **Commit Changes**
-   ```bash
-   git add .
-   git commit -m "Add: Amazing new feature"
-   ```
-   
-   **Commit Convention:**
-   - `Add:` New features
-   - `Fix:` Bug fixes
-   - `Update:` Changes to existing features
-   - `Docs:` Documentation changes
-   - `Style:` Code style changes
-   - `Refactor:` Code refactoring
-   - `Test:` Testing additions/changes
-
-6. **Push to GitHub**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-
-7. **Open Pull Request**
-   - Go to your fork on GitHub
-   - Click "New Pull Request"
-   - Describe your changes
-   - Link related issues
-
-### Code Style Guidelines
-
-**Dart/Flutter:**
-- Follow [Effective Dart](https://dart.dev/guides/language/effective-dart)
-- Use `dart format` before committing
-- Max line length: 80 characters
-- Use meaningful variable names
-
-**Python:**
-- Follow [PEP 8](https://pep8.org/)
-- Use type hints
-- Max line length: 100 characters
-- Use docstrings for functions
-
-### Testing Guidelines
-
-- Write unit tests for business logic
-- Write widget tests for UI components
-- Maintain >80% code coverage
-- Test on multiple platforms
+**Guidelines:**
+- Follow [Effective Dart](https://dart.dev/guides/language/effective-dart) style
+- Add tests for new features
+- Update documentation
 
 ---
 
 ## 🗺️ Roadmap
 
-### ✅ Completed (v1.0)
+### ✅ v1.0 (Current)
+- Core health tracking (workout, hydration, mood, period, nutrition)
+- ML predictions (obesity, exercise, menstrual health)
+- AI chatbot with 40+ languages
+- Offline-first with cloud sync
+- 6-platform support
+- Health insights engine
 
-- [x] Core health tracking (workout, hydration, mood, period)
-- [x] ML-powered predictions (obesity, exercise, menstrual)
-- [x] AI chatbot with Gemini
-- [x] Voice logging for sugar intake
-- [x] Offline-first architecture
-- [x] Cloud sync (Firebase + Supabase)
-- [x] Multi-factor authentication
-- [x] 6-platform support
-- [x] Health insights engine
-- [x] Gamification (streaks, leaderboards)
+### 🔧 v1.1 (Next)
+- Sleep tracking
+- Apple Health / Google Fit sync
+- Wearable device integration
+- Meal photo recognition (AI)
+- Custom workout plans
+- Medication reminders
 
-### 🚧 In Progress (v1.1)
+### 🔮 v2.0 (Future)
+- Blood glucose monitoring
+- Heart rate variability (HRV)
+- Telemedicine integration
+- Family account management
+- Advanced ML models (LSTM time-series)
 
-- [ ] Sleep tracking integration
-- [ ] Apple Health / Google Fit sync
-- [ ] Wearable device integration (Fitbit, Apple Watch)
-- [ ] Social features (share progress with friends)
-- [ ] Meal photo recognition (AI food detection)
-- [ ] Custom workout plans
-- [ ] Medication reminders
-- [ ] Doctor appointment scheduling
-
-### 🔮 Future (v2.0)
-
-- [ ] Blood glucose monitoring (for diabetics)
-- [ ] Heart rate variability (HRV) tracking
-- [ ] Stress detection via biometrics
-- [ ] Pregnancy tracking mode
-- [ ] Family account management
-- [ ] Health report generation (PDF export)
-- [ ] Telemedicine integration
-- [ ] Prescription tracking
-- [ ] Insurance claim assistance
-- [ ] Multilevel ML models (LSTM for time-series)
-- [ ] Federated learning (privacy-preserving ML)
-- [ ] Blockchain for health records (optional)
-
-### 💡 Ideas Under Consideration
-
-- AR/VR guided workouts
-- Mental health therapy chatbot
-- Nutrition coach with meal suggestions
-- Water quality tracking
-- Air quality alerts
-- UV index warnings
-- Community challenges
-- Health expert Q&A forum
-
-**Want to see a feature?** [Open an issue](https://github.com/yourusername/nova-health/issues/new) and tell us!
+**Want a feature?** [Open an issue](https://github.com/BhumiLodaya/Nova-SugarGuard/issues/new)!
 
 ---
 
@@ -1718,82 +1325,120 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## 🙏 Acknowledgments
 
-### Technologies & Frameworks
+**Built with:** [Flutter](https://flutter.dev), [FastAPI](https://fastapi.tiangolo.com), [PyTorch](https://pytorch.org), [TabNet](https://github.com/dreamquark-ai/tabnet), [Firebase](https://firebase.google.com), [Supabase](https://supabase.com), [Google Gemini](https://ai.google.dev)
 
-- **[Flutter](https://flutter.dev)** - Google's UI toolkit for beautiful cross-platform apps
-- **[FastAPI](https://fastapi.tiangolo.com)** - Modern Python web framework for ML serving
-- **[PyTorch](https://pytorch.org)** - Deep learning framework
-- **[TabNet](https://github.com/dreamquark-ai/tabnet)** - Interpretable tabular ML architecture
-- **[Firebase](https://firebase.google.com)** - Authentication and cloud infrastructure
-- **[Supabase](https://supabase.com)** - Open-source Firebase alternative
-- **[Google Gemini](https://ai.google.dev)** - Conversational AI for health guidance
+**Data sources:** [UCI ML Repository](https://archive.ics.uci.edu/ml), [Kaggle](https://kaggle.com), [USDA FoodData Central](https://fdc.nal.usda.gov/)
 
-### Datasets
-
-- **[UCI ML Repository](https://archive.ics.uci.edu/ml/index.php)** - Obesity and menstrual health datasets
-- **[Kaggle](https://kaggle.com)** - Exercise and fitness datasets
-- **[USDA FoodData Central](https://fdc.nal.usda.gov/)** - Nutrition database
-
-### Inspiration
-
-- Apple Health
-- Google Fit
-- MyFitnessPal
-- Flo Period Tracker
-- Headspace
-
-### Contributors
-
-Thanks to all contributors who have helped make NovaHealth better! 🎉
-
-<!-- Add contributor avatars here -->
-<!-- ALL-CONTRIBUTORS-LIST:START -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+**Inspired by:** Apple Health, Google Fit, MyFitnessPal, Flo, Headspace
 
 ---
 
 ## 📞 Contact & Support
 
-### Get Help
+<div align="center">
 
-- 📖 **Documentation**: [Read the Docs](https://github.com/yourusername/nova-health/wiki)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/nova-health/discussions)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/nova-health/issues)
-- 📧 **Email**: support@novahealth.app (not active yet)
+### 🤝 Get Help & Connect with the Community
 
-### Community
+</div>
 
-- 🌐 **Website**: [www.novahealth.app](https://novahealth.app) (coming soon)
-- 🐦 **Twitter**: [@NovaHealthApp](https://twitter.com/NovaHealthApp) (coming soon)
-- 📱 **Discord**: [Join our Discord](https://discord.gg/novahealth) (coming soon)
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 📖 **Documentation**
+[GitHub Wiki](https://github.com/BhumiLodaya/Nova-SugarGuard/wiki)
+
+Comprehensive guides and tutorials
+
+</td>
+<td align="center" width="33%">
+
+### 💬 **Discussions**
+[GitHub Discussions](https://github.com/BhumiLodaya/Nova-SugarGuard/discussions)
+
+Ask questions, share ideas
+
+</td>
+<td align="center" width="33%">
+
+### 🐛 **Bug Reports**
+[GitHub Issues](https://github.com/BhumiLodaya/Nova-SugarGuard/issues)
+
+Report bugs, request features
+
+</td>
+</tr>
+</table>
 
 ### Maintainers
 
 This project is actively maintained by:
 
-- **Lead Developer**: [@yourusername](https://github.com/yourusername)
-- **ML Engineer**: [@yourusername](https://github.com/yourusername)
-- **UI/UX Designer**: [@yourusername](https://github.com/yourusername)
+- **Lead Developer**: [@BhumiLodaya](https://github.com/BhumiLodaya)
+- **Core Contributors**: Open source community
+- **Special Thanks**: Beat the Sugar Spike Hackathon organizers
+
+**Want to contribute?** See our [Contributing Guidelines](#-contributing) above!
+
+---
+
+## ⭐ Star History
+
+<div align="center">
+
+**If you find NovaHealth useful, please give it a star! ⭐**
+
+_It helps others discover the project and motivates us to keep improving it._
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BhumiLodaya/Nova-SugarGuard&type=Date)](https://star-history.com/#BhumiLodaya/Nova-SugarGuard&Date)
+
+</div>
 
 ---
 
 ## 📊 Project Stats
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/nova-health)
-![GitHub code size](https://img.shields.io/github/languages/code-size/yourusername/nova-health)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/yourusername/nova-health)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/nova-health)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/nova-health)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/nova-health)
+<div align="center">
+
+![GitHub repo size](https://img.shields.io/github/repo-size/BhumiLodaya/Nova-SugarGuard)
+![GitHub code size](https://img.shields.io/github/languages/code-size/BhumiLodaya/Nova-SugarGuard)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/BhumiLodaya/Nova-SugarGuard)
+![GitHub last commit](https://img.shields.io/github/last-commit/BhumiLodaya/Nova-SugarGuard)
+![GitHub issues](https://img.shields.io/github/issues/BhumiLodaya/Nova-SugarGuard)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/BhumiLodaya/Nova-SugarGuard)
+
+</div>
 
 ---
 
 <div align="center">
 
-### Made with ❤️ by the NovaHealth Team
+## 🎉 Thank You!
 
-**NovaHealth: Your AI-Powered Health Companion**
+**Made with ❤️ by the NovaHealth Team**
 
-[⬆ Back to Top](#-novahealth)
+NovaHealth is built for **Beat the Sugar Spike Hackathon** with the mission to help millions reduce sugar-related health risks through AI-powered preventive care.
+
+### 🌟 Show Your Support
+
+If NovaHealth helped you or you believe in our mission:
+
+⭐ **Star this repo** | 🍴 **Fork and contribute** | 📢 **Share with friends** | 💬 **Give feedback**
+
+---
+
+### 🚀 Quick Links
+
+[🌐 Try Live Demo](https://BhumiLodaya.github.io/Nova-SugarGuard/) • [📖 Documentation](https://github.com/BhumiLodaya/Nova-SugarGuard/wiki) • [🐛 Report Issues](https://github.com/BhumiLodaya/Nova-SugarGuard/issues) • [💬 Discussions](https://github.com/BhumiLodaya/Nova-SugarGuard/discussions)
+
+---
+
+**NovaHealth: Your AI-Powered Health Companion 🍬💪**
+
+_Empowering individuals to take control of their health, one data point at a time._
+
+[⬆ Back to Top](#-novahealth--beat-the-sugar-spike)
+
+</div>
 
 </div>
